@@ -1,0 +1,384 @@
+
+连接器　版本8.7.7.190806
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\STARTUP1_L.OBJ
+Input Object File: C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\THERMALALGORITHM.OBJ
+
+Input Library File: D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0001h     0002h    0002h      CODE               @crom (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     0004h     0004h    0001h      CODE               @ISR_PLTCMP0_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0005h     0006h    0002h      CODE               @crom (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0008h     0008h    0001h      CODE               @ISR_INT0_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     000ch     000ch    0001h      CODE               @ISR_INT1_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0010h     0010h    0001h      CODE               @ISR_UART_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0014h     0014h    0001h      CODE               @ISR_LVD_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0018h     0018h    0001h      CODE               @ISR_ADC_EEPROM_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     001ch     001fh    0004h      CODE               @ISR_PTM0CMP_PTM0CMA_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0020h     0020h    0001h      CODE               @ISR_PTM1CMP_PTM1CMA_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0024h     0024h    0001h      CODE               @ISR_CTM0CMP_CTM0CMA_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0028h     002bh    0004h      CODE               @ISR_CTM1CMP_CTM1CMA_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     002ch     002ch    0001h      CODE               @ISR_TIMEBASE0_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0030h     0030h    0001h      CODE               @ISR_TIMEBASE1_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0034h     0034h    0001h      CODE               @ISR_PLTCMP1_code (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0035h     0055h    0021h      CODE               @start (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0056h     005ah    0005h      CODE               @ROMDATA_BASE (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\STARTUP1_L.OBJ)
+     00h     005bh     0060h    0006h      CODE               @crom (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0061h     0131h    00d1h      CODE               _LedCtrl (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     0132h     02a0h    016fh      CODE               _AVDevice (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     02a1h     02c3h    0023h      CODE               _ConfigType (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     02c4h     02ffh    003ch      CODE               _DataInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0300h     0331h    0032h      CODE               _main (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0332h     034ch    001bh      CODE               _MemoryInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     034dh     0399h    004dh      CODE               _MemoryRead (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     039ah     03ceh    0035h      CODE               _MemoryWrite (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     03cfh     03f2h    0024h      CODE               _PutDataToWriteEEBuff (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     03f3h     0462h    0070h      CODE               _MemoryProcess (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0463h     046bh    0009h      CODE               _CommTimeout (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     046ch     0473h    0008h      CODE               _CommBitErr (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0474h     0543h    00d0h      CODE               _GetReg (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0544h     05a0h    005dh      CODE               _SetReg (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     05a1h     08aah    030ah      CODE               _CommProtocol (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     08abh     08eeh    0044h      CODE               _AdjustBusVolt (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     08efh     0906h    0018h      CODE               _MinWorkLoopVolCheck (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0907h     0a8fh    0189h      CODE               _RefreshData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0a90h     0aa4h    0015h      CODE               _PltInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0aa5h     0b0fh    006bh      CODE               _PltCaliCmp (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b10h     0b20h    0011h      CODE               _PtmInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b21h     0b55h    0035h      CODE               _PltCaliOpa (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b56h     0b86h    0031h      CODE               _SystemInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b87h     0b8ah    0004h      CODE               _PltOpaSwitchOn (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b8bh     0b8fh    0005h      CODE               _PltOpaSwitchOff (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0b90h     0be2h    0053h      CODE               _PltLineVolt (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0be3h     0c51h    006fh      CODE               _PWMTimer (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0c52h     0c80h    002fh      CODE               _LEDTimer (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0c81h     0d26h    00a6h      CODE               _ISR_PTM0CMP_PTM0CMA (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0d27h     0d42h    001ch      CODE               _ISR_CTM1CMP_CTM1CMA (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0d43h     0d4ch    000ah      CODE               __DELAYX (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0d4dh     0d5fh    0013h      CODE               _builtin_holtek_mulhi3_isr00 (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0d60h     0d7ah    001bh      CODE               _memset (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0d7bh     0d88h    000eh      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     150       @data_ra (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     107       @data_rb (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     69        @data_rc (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     39        @data_rd (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     32        @data_re (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     10        @data_rf (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     6         @data_rg (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     114       @data_ra1c (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     37        @data_rb1c (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     16        @data_rc1c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     19        @data_rd1c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     6         @data_re1c (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     2         @data_r128 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_r228 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     6         @data_ra28 (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     4         @HCCINIT___s_ucStrongSdCycCnt_2143 (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     00a0h     00a1h    0002h      DATA     2         @HCCINIT___time_2138 (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     00a2h     00a8h    0007h      DATA     10.286    @HCCINIT0_SysData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     00a9h     00c5h    001dh      DATA     8.4828    @HCCINIT0_CommData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     01h     0080h     00c0h    0041h      DATA     3.0769    @HCCINIT0_FuncData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     01h     00c1h     00fbh    003bh      DATA     0.7288    @HCCINIT0_MemData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     01h     00fch     00fch    0001h      DATA     2         @data_r31c (isr:ra~rh)
+     01h     00fdh     00fdh    0001h      DATA     2         @data_r41c (isr:ra~rh)
+     01h     00feh     00feh    0001h      DATA     2         @data_r51c (isr:ra~rh)
+     01h     00ffh     00ffh    0001h      DATA     2         @data_r61c (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     009fh     009fh    0000h      LOCAL    0         @dummy (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    4         _main (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _SystemInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _PltCaliCmp (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         __DELAYX (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _PltCaliOpa (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    2         _PltInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _AdjustBusVolt (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _PltLineVolt (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0098h     009dh    0006h      LOCAL    3.1667    _builtin_holtek_mulhi3_isr00 (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _PtmInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _DataInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0098h     009dh    0006h      LOCAL    5.5       _memset (D:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0098h     0098h    0000h      LOCAL    0         _MemoryInit (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0098h     0099h    0002h      LOCAL    8.5       _RefreshData (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    1         _ConfigType (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ)
+     00h     0099h     0099h    0001h      LOCAL    17        _AVDevice (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    4         _PWMTimer (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0098h     0098h    0000h      LOCAL    0         _MinWorkLoopVolCheck (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0099h     0099h    0001h      LOCAL    8         _LedCtrl (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\FUNCTION.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    3         _LEDTimer (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    5         _MemoryWrite (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    5         _MemoryProcess (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         @dummy28 (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    6         _ISR_PTM0CMP_PTM0CMA (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _PltOpaSwitchOn (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _PltOpaSwitchOff (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\CONFIG.OBJ)
+     00h     0094h     0096h    0003h      LOCAL    24.333    _CommProtocol (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0091h     0092h    0002h      LOCAL    4         _GetReg (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    2         _MemoryRead (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0091h     0092h    0002h      LOCAL    2         _PutDataToWriteEEBuff (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MEMORY.OBJ)
+     00h     0091h     0093h    0003h      LOCAL    6.6667    _SetReg (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _CommBitErr (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _CommTimeout (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\COMM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         @dummy40 (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ISR_CTM1CMP_CTM1CMA (C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\INT.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0132h              _AVDevice
+     08abh              _AdjustBusVolt
+     0001h              _AvGroupConfig
+     046ch              _CommBitErr
+     00a9h              _CommData
+     05a1h              _CommProtocol
+     0463h              _CommTimeout
+     02a1h              _ConfigType
+     0d7bh              _Crom2Prom
+     0d7bh              _Crom2PromNext
+     02c4h              _DataInit
+     0180h              _FuncData
+     0474h              _GetReg
+     0018h              _ISR_ADC_EEPROM
+     0024h              _ISR_CTM0CMP_CTM0CMA
+     0d27h              _ISR_CTM1CMP_CTM1CMA
+     0008h              _ISR_INT0
+     000ch              _ISR_INT1
+     0014h              _ISR_LVD
+     0004h              _ISR_PLTCMP0
+     0034h              _ISR_PLTCMP1
+     0c81h              _ISR_PTM0CMP_PTM0CMA
+     0020h              _ISR_PTM1CMP_PTM1CMA
+     002ch              _ISR_TIMEBASE0
+     0030h              _ISR_TIMEBASE1
+     0010h              _ISR_UART
+     0c52h              _LEDTimer
+     0061h              _LedCtrl
+     01c1h              _MemData
+     0332h              _MemoryInit
+     03f3h              _MemoryProcess
+     034dh              _MemoryRead
+     039ah              _MemoryWrite
+     08efh              _MinWorkLoopVolCheck
+     0be3h              _PWMTimer
+     0aa5h              _PltCaliCmp
+     0b21h              _PltCaliOpa
+     0a90h              _PltInit
+     0b90h              _PltLineVolt
+     0b8bh              _PltOpaSwitchOff
+     0b87h              _PltOpaSwitchOn
+     0b10h              _PtmInit
+     03cfh              _PutDataToWriteEEBuff
+     0907h              _RefreshData
+     0544h              _SetReg
+     0093h              _SetReg_2
+     00a2h              _SysData
+     0b56h              _SystemInit
+     0005h              _VerInfo
+     0d46h              __DELAYX0
+     0d45h              __DELAYX1
+     0d45h              __DELAYX2
+     0d44h              __DELAYX3
+     0d44h              __DELAYX4
+     0d43h              __DELAYX5
+     0d43h              __DELAYX6
+     0d4dh              _builtin_holtek_mulhi3_isr00
+     009ah              _builtin_holtek_mulhi3_isr00_2
+     0300h              _main
+     0d60h              _memset
+     005bh              _ucSoundHighBuff
+     005eh              _uiSoundGraBuff
+     008ch              r11c
+     008eh              r128
+     008dh              r21c
+     008fh              r228
+     01fch              r31c
+     01fdh              r41c
+     01feh              r51c
+     01ffh              r61c
+     0080h              ra
+     0087h              ra1c
+     0090h              ra28
+     0081h              rb
+     0088h              rb1c
+     0082h              rc
+     0089h              rc1c
+     0083h              rd
+     008ah              rd1c
+     0084h              re
+     008bh              re1c
+     0085h              rf
+     0086h              rg
+     0056h              startup_value_1
+
+     Address            Public by Value
+     0001h              _AvGroupConfig
+     0004h              _ISR_PLTCMP0
+     0005h              _VerInfo
+     0008h              _ISR_INT0
+     000ch              _ISR_INT1
+     0010h              _ISR_UART
+     0014h              _ISR_LVD
+     0018h              _ISR_ADC_EEPROM
+     0020h              _ISR_PTM1CMP_PTM1CMA
+     0024h              _ISR_CTM0CMP_CTM0CMA
+     002ch              _ISR_TIMEBASE0
+     0030h              _ISR_TIMEBASE1
+     0034h              _ISR_PLTCMP1
+     0056h              startup_value_1
+     005bh              _ucSoundHighBuff
+     005eh              _uiSoundGraBuff
+     0061h              _LedCtrl
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              ra1c
+     0088h              rb1c
+     0089h              rc1c
+     008ah              rd1c
+     008bh              re1c
+     008ch              r11c
+     008dh              r21c
+     008eh              r128
+     008fh              r228
+     0090h              ra28
+     0093h              _SetReg_2
+     009ah              _builtin_holtek_mulhi3_isr00_2
+     00a2h              _SysData
+     00a9h              _CommData
+     0132h              _AVDevice
+     0180h              _FuncData
+     01c1h              _MemData
+     01fch              r31c
+     01fdh              r41c
+     01feh              r51c
+     01ffh              r61c
+     02a1h              _ConfigType
+     02c4h              _DataInit
+     0300h              _main
+     0332h              _MemoryInit
+     034dh              _MemoryRead
+     039ah              _MemoryWrite
+     03cfh              _PutDataToWriteEEBuff
+     03f3h              _MemoryProcess
+     0463h              _CommTimeout
+     046ch              _CommBitErr
+     0474h              _GetReg
+     0544h              _SetReg
+     05a1h              _CommProtocol
+     08abh              _AdjustBusVolt
+     08efh              _MinWorkLoopVolCheck
+     0907h              _RefreshData
+     0a90h              _PltInit
+     0aa5h              _PltCaliCmp
+     0b10h              _PtmInit
+     0b21h              _PltCaliOpa
+     0b56h              _SystemInit
+     0b87h              _PltOpaSwitchOn
+     0b8bh              _PltOpaSwitchOff
+     0b90h              _PltLineVolt
+     0be3h              _PWMTimer
+     0c52h              _LEDTimer
+     0c81h              _ISR_PTM0CMP_PTM0CMA
+     0d27h              _ISR_CTM1CMP_CTM1CMA
+     0d43h              __DELAYX5
+     0d43h              __DELAYX6
+     0d44h              __DELAYX3
+     0d44h              __DELAYX4
+     0d45h              __DELAYX1
+     0d45h              __DELAYX2
+     0d46h              __DELAYX0
+     0d4dh              _builtin_holtek_mulhi3_isr00
+     0d60h              _memset
+     0d7bh              _Crom2Prom
+     0d7bh              _Crom2PromNext
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     0d6ch    83%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0046h    54%
+     01h       0080h     0080h    100%
+     Total     0100h     00c6h    77%
+
+Use Stack Count
+_main: 4
+_AdcSample: 1
+_ISR_PTM0CMP_PTM0CMA: 3
+_ISR_CTM1CMP_CTM1CMA: 0
+
+Call Tree
+    @dummy
+        _main (0)
+            _SystemInit (1)
+                _PltCaliCmp (2)
+                    __DELAYX (3)
+                _PltCaliOpa (2)
+                    __DELAYX (3)
+                _PltInit (2)
+                _AdjustBusVolt (2)
+                    _PltLineVolt (3)
+                        __DELAYX (4)
+                    _builtin_holtek_mulhi3_isr00 (3)
+                    __DELAYX (3)
+                _PtmInit (2)
+            _DataInit (1)
+                _memset (2)
+                _MemoryInit (2)
+                _RefreshData (2)
+                _ConfigType (2)
+            _AVDevice (1)
+                _PWMTimer (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _AdjustBusVolt (1)
+                _PltLineVolt (2)
+                    __DELAYX (3)
+                _builtin_holtek_mulhi3_isr00 (2)
+                __DELAYX (2)
+            _MinWorkLoopVolCheck (1)
+            _LedCtrl (1)
+                _LEDTimer (2)
+            _RefreshData (1)
+            _MemoryWrite (1)
+            _MemoryProcess (1)
+    _AdcSample
+        __DELAYX (0)
+    @dummy28
+        _ISR_PTM0CMP_PTM0CMA (0)
+            _PltOpaSwitchOn (1)
+            __DELAYX (1)
+            _PltOpaSwitchOff (1)
+            _CommProtocol (1)
+                _GetReg (2)
+                _MemoryRead (2)
+                    _Crom2Prom (3)
+                _PutDataToWriteEEBuff (2)
+                _SetReg (2)
+            _CommBitErr (1)
+            _CommTimeout (1)
+    @dummy40
+        _ISR_CTM1CMP_CTM1CMA (0)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'C:\Users\houlinfeng\Desktop\TwoWireDevice_Hou\output_module\MAIN.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0

@@ -1,0 +1,502 @@
+
+Linker Version 8.7.7.211123
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\STARTUP1_L.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     0001h     0002h    0002h      CODE               @crom (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     0004h     0007h    0004h      CODE               @PLTCMP0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0008h     0008h    0001h      CODE               @INT0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     000ch     000ch    0001h      CODE               @INT1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0010h     0010h    0001h      CODE               @USIM_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0014h     0014h    0001h      CODE               @LVD_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0018h     0018h    0001h      CODE               @ADCONVERTER_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     001ch     001ch    0001h      CODE               @EEPROM_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0020h     0023h    0004h      CODE               @PTMCOMP_P_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0024h     0027h    0004h      CODE               @PTMCOMP_A_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0028h     0028h    0001h      CODE               @STMCOMP_P_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     002ch     002fh    0004h      CODE               @STMCOMP_A_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0030h     0033h    0004h      CODE               @TIMEBASE0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0034h     0034h    0001h      CODE               @TIMEBASE1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0038h     0038h    0001h      CODE               @PLTCMP1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0039h     0059h    0021h      CODE               @start (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     005ah     0060h    0007h      CODE               @ROMDATA_BASE (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\STARTUP1_L.OBJ)
+     00h     0061h     006ah    000ah      CODE               @crom (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     006bh     00c3h    0059h      CODE               _GetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     00c4h     00dah    0017h      CODE               _SetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     00dbh     0328h    024eh      CODE               _CommProtocol (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     0329h     03a0h    0078h      CODE               _RefreshData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     03a1h     03b5h    0015h      CODE               _AfeInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     03b6h     03cfh    001ah      CODE               _PltInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     03d0h     043ah    006bh      CODE               _PltCaliCmp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     043bh     0446h    000ch      CODE               _PtmInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     0447h     047bh    0035h      CODE               _PltCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     047ch     0480h    0005h      CODE               _PltOpaSwitchOff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     0481h     0494h    0014h      CODE               _SdOpaSwitch (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     0495h     04cdh    0039h      CODE               _SystemInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     04ceh     055dh    0090h      CODE               _SdCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     055eh     0594h    0037h      CODE               _SmokeBuzzlePwm (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     0595h     05fch    0068h      CODE               _AdcSample (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     05fdh     0605h    0009h      CODE               _LedCtrl (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     0606h     0a0fh    040ah      CODE               _SmokeDetector (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     0a10h     0af0h    00e1h      CODE               _SmokeDetectorBuzzle (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     0af1h     0b18h    0028h      CODE               _ConfigType (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     0b19h     0b63h    004bh      CODE               _DataInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     0b64h     0bb2h    004fh      CODE               _main (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     0bb3h     0bd0h    001eh      CODE               _MemoryInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     0bd1h     0c05h    0035h      CODE               _MemoryWrite (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     0c06h     0c29h    0024h      CODE               _PutDataToWriteEEBuff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     0c2ah     0c99h    0070h      CODE               _MemoryProcess (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     0c9ah     0cadh    0014h      CODE               _PLTCMP0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0caeh     0daah    00fdh      CODE               _PTMCOMP_P (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0dabh     0ee0h    0136h      CODE               _PTMCOMP_A (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0ee1h     0efdh    001dh      CODE               _STMCOMP_A (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0efeh     0f22h    0025h      CODE               _TIMEBASE0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     0f23h     0f3bh    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f3ch     0f45h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f46h     0f53h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f54h     0f72h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f73h     0fb5h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0fb6h     0fd0h    001bh      CODE               _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0fd1h     0fdeh    000eh      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     149       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     107       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     53        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     69        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     60        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     41        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     41        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     56        @data_ra24 (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     71        @data_rb24 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     43        @data_rc24 (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     33        @data_rd24 (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     28        @data_re24 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     12        @data_rf24 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     6         @data_rg24 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     18        @data_ra20 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     14        @data_rb20 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     13        @data_rc20 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     2         @data_r120 (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     5         @data_rd20 (isr:ra~rh)
+     00h     0096h     0096h    0001h      DATA     5         @data_re20 (isr:ra~rh)
+     00h     0097h     0097h    0001h      DATA     2         @data_r124 (isr:ra~rh)
+     00h     0098h     0098h    0001h      DATA     2         @data_r224 (isr:ra~rh)
+     00h     0099h     0099h    0001h      DATA     12        @data_rh24 (isr:ra~rh)
+     00h     009ah     009ah    0001h      DATA     2         @data_r12c (isr:ra~rh)
+     00h     009bh     009bh    0001h      DATA     2         @data_r22c (isr:ra~rh)
+     00h     009ch     009ch    0001h      DATA     2         @data_r130 (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     2         @data_r230 (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     12        @data_ra30 (isr:ra~rh)
+     00h     00bfh     00bfh    0001h      DATA     13        @HCCINIT_CLIPDLIPFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c0h     00c0h    0001h      DATA     9         @HCCINIT_timeLoopCounter (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00c1h     00c1h    0001h      DATA     9         @HCCINIT_PW4ErrorFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c2h     00c2h    0001h      DATA     9         @HCCINIT_m_ptmPfunc (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c3h     00c3h    0001h      DATA     7         @HCCINIT_timeoutDurationFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c4h     00c4h    0001h      DATA     5         @HCCINIT_CLIPWriteFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     00c5h     00c5h    0001h      DATA     3         @HCCINIT_sucTmpDin (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c6h     00c6h    0001h      DATA     0         @HCCINIT_resetInd (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00c7h     00cah    0004h      DATA     8         @HCCINIT0_SysData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00cbh     00e5h    001bh      DATA     5.7778    @HCCINIT0_CommData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00e6h     00efh    000ah      DATA     3.9       @HCCINIT0_SdkeePotData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00f0h     00f0h    0001h      DATA     2         @data_r320 (isr:ra~rh)
+     00h     00f1h     00f1h    0001h      DATA     2         @data_r420 (isr:ra~rh)
+     00h     00f2h     00f2h    0001h      DATA     2         @data_r520 (isr:ra~rh)
+     00h     00f3h     00f3h    0001h      DATA     2         @data_r620 (isr:ra~rh)
+     00h     00f4h     00f4h    0001h      DATA     2         @data_r324 (isr:ra~rh)
+     00h     00f5h     00f5h    0001h      DATA     2         @data_r424 (isr:ra~rh)
+     00h     00f6h     00f6h    0001h      DATA     2         @data_r524 (isr:ra~rh)
+     00h     00f7h     00f7h    0001h      DATA     2         @data_r624 (isr:ra~rh)
+     01h     0080h     00b8h    0039h      DATA     4.7193    @HCCINIT0_FuncData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     01h     00b9h     00e3h    002bh      DATA     1.186     @HCCINIT0_MemData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00bfh     00bfh    0000h      LOCAL    0         @dummy (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00beh     00beh    0001h      LOCAL    4         _main (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _SystemInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00aah    0004h      LOCAL    3.5       _AfeInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a8h     00a8h    0001h      LOCAL    1         _SdOpaSwitch (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    4         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _PltCaliCmp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _PltCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    2         _PltInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _PtmInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00adh     00adh    0000h      LOCAL    0         _DataInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00a7h     00ach    0006h      LOCAL    6.5       _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _MemoryInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     00ach     00ach    0000h      LOCAL    0         _RefreshData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     00a7h     00abh    0005h      LOCAL    7         _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009fh     009fh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00a7h     00a7h    0001h      LOCAL    2         _ConfigType (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ)
+     00h     00abh     00abh    0000h      LOCAL    0         _SdCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00b5h     00bdh    0009h      LOCAL    8.6667    _SmokeDetector (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    1         _AdcSample (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00b2h    000ch      LOCAL    6.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a7h     00b4h    000eh      LOCAL    6.5714    _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a8h     00a8h    0001h      LOCAL    3         _SmokeDetectorBuzzle (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    4         _SmokeBuzzlePwm (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _LedCtrl (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\FUNCTION.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    5         _MemoryWrite (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     00a7h     00a7h    0001h      LOCAL    5         _MemoryProcess (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     00a7h     00a7h    0000h      LOCAL    0         @dummy4 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a7h     00a7h    0000h      LOCAL    0         _PLTCMP0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a7h     00a7h    0000h      LOCAL    0         @dummy32 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a6h     00a6h    0001h      LOCAL    10        _PTMCOMP_P (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a1h     00a1h    0000h      LOCAL    0         _PltOpaSwitchOff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\CONFIG.OBJ)
+     00h     009fh     00a0h    0002h      LOCAL    2.5       _PutDataToWriteEEBuff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MEMORY.OBJ)
+     00h     00a6h     00a6h    0000h      LOCAL    0         @dummy36 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a4h     00a5h    0002h      LOCAL    3         _PTMCOMP_A (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     00a3h     00a3h    0001h      LOCAL    17        _CommProtocol (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    0         _GetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     00a1h     00a2h    0002h      LOCAL    1.5       _SetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\COMM.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         @dummy44 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _STMCOMP_A (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         @dummy48 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _TIMEBASE0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\INTERRUPT_5542.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0018h              _ADCONVERTER
+     0595h              _AdcSample
+     03a1h              _AfeInit
+     00a7h              _AfeInit_2
+     0001h              _AvGroupConfig
+     0061h              _CLIPAddrDecode
+     0066h              _CLIPAddrEncode
+     00bfh              _CLIPDLIPFlag
+     00c4h              _CLIPWriteFlag
+     00cbh              _CommData
+     00dbh              _CommProtocol
+     0af1h              _ConfigType
+     0fd1h              _Crom2Prom
+     0fd1h              _Crom2PromNext
+     0b19h              _DataInit
+     001ch              _EEPROM
+     0180h              _FuncData
+     006bh              _GetReg
+     0008h              _INT0
+     000ch              _INT1
+     0014h              _LVD
+     05fdh              _LedCtrl
+     01b9h              _MemData
+     0bb3h              _MemoryInit
+     0c2ah              _MemoryProcess
+     0bd1h              _MemoryWrite
+     0c9ah              _PLTCMP0
+     0038h              _PLTCMP1
+     0dabh              _PTMCOMP_A
+     0caeh              _PTMCOMP_P
+     00c1h              _PW4ErrorFlag
+     03d0h              _PltCaliCmp
+     0447h              _PltCaliOpa
+     03b6h              _PltInit
+     047ch              _PltOpaSwitchOff
+     043bh              _PtmInit
+     0c06h              _PutDataToWriteEEBuff
+     009fh              _PutDataToWriteEEBuff_2
+     0329h              _RefreshData
+     0ee1h              _STMCOMP_A
+     0028h              _STMCOMP_P
+     04ceh              _SdCaliOpa
+     0481h              _SdOpaSwitch
+     00e6h              _SdkeePotData
+     00c4h              _SetReg
+     00a1h              _SetReg_2
+     055eh              _SmokeBuzzlePwm
+     0606h              _SmokeDetector
+     0a10h              _SmokeDetectorBuzzle
+     00c7h              _SysData
+     0495h              _SystemInit
+     0efeh              _TIMEBASE0
+     0034h              _TIMEBASE1
+     0010h              _USIM
+     0f3fh              __DELAYX0
+     0f3eh              __DELAYX1
+     0f3eh              __DELAYX2
+     0f3dh              __DELAYX3
+     0f3dh              __DELAYX4
+     0f3ch              __DELAYX5
+     0f3ch              __DELAYX6
+     0f48h              __DELAYY0_isr00
+     0f48h              __DELAYY1_isr00
+     0f47h              __DELAYY2_isr00
+     0f47h              __DELAYY3_isr00
+     0f46h              __DELAYY4_isr00
+     0f46h              __DELAYY5_isr00
+     0f54h              _builtin_holtek_mulsi3_isr00
+     00ach              _builtin_holtek_mulsi3_isr00_2
+     0f23h              _builtin_holtek_udivmodqi4_isr00
+     00abh              _builtin_holtek_udivmodqi4_isr00_2
+     0f73h              _builtin_holtek_udivmodsi4_isr00
+     00b3h              _builtin_holtek_udivmodsi4_isr00_2
+     00c2h              _m_ptmPfunc
+     0b64h              _main
+     0fb6h              _memset
+     00c6h              _resetInd
+     00c0h              _timeLoopCounter
+     00c3h              _timeoutDurationFlag
+     0091h              r104
+     0093h              r120
+     0097h              r124
+     009ah              r12c
+     009ch              r130
+     0092h              r204
+     0094h              r220
+     0098h              r224
+     009bh              r22c
+     009dh              r230
+     00f0h              r320
+     00f4h              r324
+     00f1h              r420
+     00f5h              r424
+     00f2h              r520
+     00f6h              r524
+     00f3h              r620
+     00f7h              r624
+     0080h              ra
+     008eh              ra20
+     0087h              ra24
+     009eh              ra30
+     0081h              rb
+     008fh              rb20
+     0088h              rb24
+     0082h              rc
+     0090h              rc20
+     0089h              rc24
+     0083h              rd
+     0095h              rd20
+     008ah              rd24
+     0084h              re
+     0096h              re20
+     008bh              re24
+     0085h              rf
+     008ch              rf24
+     0086h              rg
+     008dh              rg24
+     0099h              rh24
+     005ah              startup_value_1
+
+     Address            Public by Value
+     0001h              _AvGroupConfig
+     0008h              _INT0
+     000ch              _INT1
+     0010h              _USIM
+     0014h              _LVD
+     0018h              _ADCONVERTER
+     001ch              _EEPROM
+     0028h              _STMCOMP_P
+     0034h              _TIMEBASE1
+     0038h              _PLTCMP1
+     005ah              startup_value_1
+     0061h              _CLIPAddrDecode
+     0066h              _CLIPAddrEncode
+     006bh              _GetReg
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              ra24
+     0088h              rb24
+     0089h              rc24
+     008ah              rd24
+     008bh              re24
+     008ch              rf24
+     008dh              rg24
+     008eh              ra20
+     008fh              rb20
+     0090h              rc20
+     0091h              r104
+     0092h              r204
+     0093h              r120
+     0094h              r220
+     0095h              rd20
+     0096h              re20
+     0097h              r124
+     0098h              r224
+     0099h              rh24
+     009ah              r12c
+     009bh              r22c
+     009ch              r130
+     009dh              r230
+     009eh              ra30
+     009fh              _PutDataToWriteEEBuff_2
+     00a1h              _SetReg_2
+     00a7h              _AfeInit_2
+     00abh              _builtin_holtek_udivmodqi4_isr00_2
+     00ach              _builtin_holtek_mulsi3_isr00_2
+     00b3h              _builtin_holtek_udivmodsi4_isr00_2
+     00bfh              _CLIPDLIPFlag
+     00c0h              _timeLoopCounter
+     00c1h              _PW4ErrorFlag
+     00c2h              _m_ptmPfunc
+     00c3h              _timeoutDurationFlag
+     00c4h              _SetReg
+     00c4h              _CLIPWriteFlag
+     00c6h              _resetInd
+     00c7h              _SysData
+     00cbh              _CommData
+     00dbh              _CommProtocol
+     00e6h              _SdkeePotData
+     00f0h              r320
+     00f1h              r420
+     00f2h              r520
+     00f3h              r620
+     00f4h              r324
+     00f5h              r424
+     00f6h              r524
+     00f7h              r624
+     0180h              _FuncData
+     01b9h              _MemData
+     0329h              _RefreshData
+     03a1h              _AfeInit
+     03b6h              _PltInit
+     03d0h              _PltCaliCmp
+     043bh              _PtmInit
+     0447h              _PltCaliOpa
+     047ch              _PltOpaSwitchOff
+     0481h              _SdOpaSwitch
+     0495h              _SystemInit
+     04ceh              _SdCaliOpa
+     055eh              _SmokeBuzzlePwm
+     0595h              _AdcSample
+     05fdh              _LedCtrl
+     0606h              _SmokeDetector
+     0a10h              _SmokeDetectorBuzzle
+     0af1h              _ConfigType
+     0b19h              _DataInit
+     0b64h              _main
+     0bb3h              _MemoryInit
+     0bd1h              _MemoryWrite
+     0c06h              _PutDataToWriteEEBuff
+     0c2ah              _MemoryProcess
+     0c9ah              _PLTCMP0
+     0caeh              _PTMCOMP_P
+     0dabh              _PTMCOMP_A
+     0ee1h              _STMCOMP_A
+     0efeh              _TIMEBASE0
+     0f23h              _builtin_holtek_udivmodqi4_isr00
+     0f3ch              __DELAYX6
+     0f3ch              __DELAYX5
+     0f3dh              __DELAYX4
+     0f3dh              __DELAYX3
+     0f3eh              __DELAYX2
+     0f3eh              __DELAYX1
+     0f3fh              __DELAYX0
+     0f46h              __DELAYY5_isr00
+     0f46h              __DELAYY4_isr00
+     0f47h              __DELAYY3_isr00
+     0f47h              __DELAYY2_isr00
+     0f48h              __DELAYY1_isr00
+     0f48h              __DELAYY0_isr00
+     0f54h              _builtin_holtek_mulsi3_isr00
+     0f73h              _builtin_holtek_udivmodsi4_isr00
+     0fb6h              _memset
+     0fd1h              _Crom2PromNext
+     0fd1h              _Crom2Prom
+
+Warning(L3008) : Same sub function exists between ISR(24H) CMG and ISR(20H) CMG: _PltOpaSwitchOff
+Warning(L3008) : Same sub function exists between ISR(24H) CMG and ISR(20H) CMG: _PutDataToWriteEEBuff
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     0fc6h    98%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0078h    93%
+     01h       0080h     0064h    78%
+     Total     0100h     00dch    85%
+
+Use Stack Count
+_main: 3
+_PLTCMP0: 0
+_PTMCOMP_P: 1
+_PTMCOMP_A: 2
+_STMCOMP_A: 0
+_TIMEBASE0: 0
+
+Call Tree
+    @dummy
+        _main (0)
+            _SystemInit (1)
+                _AfeInit (2)
+                _SdOpaSwitch (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _PltCaliCmp (2)
+                    __DELAYX (3)
+                _PltCaliOpa (2)
+                    __DELAYX (3)
+                _PltInit (2)
+                _PtmInit (2)
+            _DataInit (1)
+                _memset (2)
+                _MemoryInit (2)
+                _RefreshData (2)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                _ConfigType (2)
+            _SdCaliOpa (1)
+                __DELAYX (2)
+                _AfeInit (2)
+                _SdOpaSwitch (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _builtin_holtek_delay_isr00 (1)
+            _SmokeDetector (1)
+                _AfeInit (2)
+                _SdOpaSwitch (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _AdcSample (2)
+                    __DELAYX (3)
+                __DELAYX (2)
+                _builtin_holtek_mulsi3_isr00 (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _SmokeDetectorBuzzle (1)
+                _SmokeBuzzlePwm (2)
+            _LedCtrl (1)
+            _RefreshData (1)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+            _MemoryWrite (1)
+            _MemoryProcess (1)
+    @dummy4
+        _PLTCMP0 (0)
+    @dummy32
+        _PTMCOMP_P (0)
+            _PltOpaSwitchOff (1)
+            _Crom2Prom (1)
+            _PutDataToWriteEEBuff (1)
+    @dummy36
+        _PTMCOMP_A (0)
+            __DELAYX (1)
+            _PltOpaSwitchOff (1)
+            _CommProtocol (1)
+                _GetReg (2)
+                _Crom2Prom (2)
+                _PutDataToWriteEEBuff (2)
+                _SetReg (2)
+    @dummy44
+        _STMCOMP_A (0)
+    @dummy48
+        _TIMEBASE0 (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_smoke\MAIN.OBJ'
+
+Total 0 error(s), Total 2 Warning(s)

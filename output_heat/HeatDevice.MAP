@@ -1,0 +1,516 @@
+
+Linker Version 8.7.7.211123
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\STARTUP1_L.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ
+Input Object File: c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     0001h     0002h    0002h      CODE               @crom (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ)
+     00h     0003h     0003h    0001h      CODE               _LedCtrl (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ)
+     00h     0004h     0007h    0004h      CODE               @ISR_PLTCMP0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0008h     0008h    0001h      CODE               @ISR_INT0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     000ch     000ch    0001h      CODE               @ISR_INT1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0010h     0010h    0001h      CODE               @ISR_UART_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0014h     0014h    0001h      CODE               @ISR_LVD_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0018h     0018h    0001h      CODE               @ISR_ADC_EEPROM_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     001ch     001fh    0004h      CODE               @ISR_PTM0CMP_PTM0CMA_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0020h     0020h    0001h      CODE               @ISR_PTM1CMP_PTM1CMA_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0024h     0027h    0004h      CODE               @ISR_CTM0CMP_CTM0CMA_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0028h     002bh    0004h      CODE               @ISR_CTM1CMP_CTM1CMA_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     002ch     002ch    0001h      CODE               @ISR_TIMEBASE0_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0030h     0030h    0001h      CODE               @ISR_TIMEBASE1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0034h     0034h    0001h      CODE               @ISR_PLTCMP1_code (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0035h     0055h    0021h      CODE               @start (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     0056h     0071h    001ch      CODE               @ROMDATA_BASE (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\STARTUP1_L.OBJ)
+     00h     0072h     007bh    000ah      CODE               @crom (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     007ch     00a9h    002eh      CODE               @crom (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00aah     0132h    0089h      CODE               _HeatDetector (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ)
+     00h     0133h     0147h    0015h      CODE               _ConfigType (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     0148h     0187h    0040h      CODE               _DataInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     0188h     01b6h    002fh      CODE               _main (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     01b7h     01d4h    001eh      CODE               _MemoryInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     01d5h     0209h    0035h      CODE               _MemoryWrite (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     020ah     022dh    0024h      CODE               _PutDataToWriteEEBuff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     022eh     029eh    0071h      CODE               _MemoryProcess (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     029fh     02d1h    0033h      CODE               _GetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     02d2h     02dfh    000eh      CODE               _SetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     02e0h     05a7h    02c8h      CODE               _CommProtocol (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     05a8h     0621h    007ah      CODE               _RefreshData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     0622h     063bh    001ah      CODE               _PltInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     063ch     06a6h    006bh      CODE               _PltCaliCmp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     06a7h     06b3h    000dh      CODE               _PtmInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     06b4h     06e8h    0035h      CODE               _PltCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     06e9h     071bh    0033h      CODE               _SystemInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     071ch     0720h    0005h      CODE               _PltOpaSwitchOff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     0721h     0781h    0061h      CODE               _AdcSample (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     0782h     07c0h    003fh      CODE               _AdvalFilter (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     07c1h     091ch    015ch      CODE               _AdConvertTemp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     091dh     0940h    0024h      CODE               _ResetHeatPointRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0941h     098eh    004eh      CODE               _ShiftHeatPointRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     098fh     0a72h    00e4h      CODE               _TempRiseCurJudge (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0a73h     0acch    005ah      CODE               _AlarmTmpThConfig (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0acdh     0bcah    00feh      CODE               _TempAlarmFunc (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0bcbh     0bd8h    000eh      CODE               _HeatDeviceTypeConfig (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0bd9h     0c48h    0070h      CODE               _HeatDetectFunction (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     0c49h     0c5ch    0014h      CODE               _ISR_PLTCMP0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0c5dh     0ebah    025eh      CODE               _ISR_PTM0CMP_PTM0CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0ebbh     0ee7h    002dh      CODE               _ISR_CTM0CMP_CTM0CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0ee8h     0efbh    0014h      CODE               _ISR_CTM1CMP_CTM1CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0efch     0f14h    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f15h     0f1eh    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f1fh     0f2ch    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f2dh     0f3fh    0013h      CODE               _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f40h     0f5eh    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f5fh     0f83h    0025h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f84h     0fc6h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0fc7h     0fe1h    001bh      CODE               _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0fe2h     0ff1h    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     127       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     139       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     113       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     86        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     80        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     36        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     31        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     9         @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     89        @data_ra1c (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     77        @data_rb1c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     59        @data_rc1c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     44        @data_rd1c (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     44        @data_re1c (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     13        @data_rf1c (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     20        @data_rg1c (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     8         @data_rh1c (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     2         @data_r124 (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     2         @data_r224 (isr:ra~rh)
+     00h     0096h     0096h    0001h      DATA     2         @data_r128 (isr:ra~rh)
+     00h     0097h     0097h    0001h      DATA     2         @data_r228 (isr:ra~rh)
+     00h     0098h     0098h    0001h      DATA     3         @data_ra28 (isr:ra~rh)
+     00h     00bbh     00bbh    0001h      DATA     13        @HCCINIT_CLIPDLIPFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     00bch     00bch    0001h      DATA     9         @HCCINIT_timeLoopCounter (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     00bdh     00bdh    0001h      DATA     9         @HCCINIT_m_ptm0Pfunc (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     00beh     00beh    0001h      DATA     7         @HCCINIT_timeoutDurationFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     00bfh     00bfh    0001h      DATA     5         @HCCINIT_CLIPWriteFlag (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     00c0h     00c3h    0004h      DATA     5         @HCCINIT___HeatPointTemp_2159 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00c4h     00c4h    0001h      DATA     4         @HCCINIT___ucTempCurveTmp_2160 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00c5h     00c5h    0001h      DATA     3         @HCCINIT___ucRefrshNum_2127 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00c6h     00c6h    0001h      DATA     3         @HCCINIT___s_uiPulseJamCnt_2129 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00c7h     00c8h    0002h      DATA     3         @HCCINIT___uiLastTmp_2125 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00c9h     00cah    0002h      DATA     3         @HCCINIT___uiLastAd_2116 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00cbh     00cch    0002h      DATA     2         @HCCINIT___s_FirstFlag_2198 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00cdh     00cdh    0001h      DATA     2         @HCCINIT___ucFstRunFlag_2158 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00ceh     00ceh    0001h      DATA     2         @HCCINIT___ucFstRunFlag_2126 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00cfh     00cfh    0001h      DATA     2         @HCCINIT_sucTmpDin (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     00d0h     00d7h    0008h      DATA     1         @HCCINIT___siTmpBuff_2124 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00d8h     00ebh    0014h      DATA     0.4       @HCCINIT_HeatPointRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00ech     00efh    0004h      DATA     5.25      @HCCINIT0_SysData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     00f0h     00fah    000bh      DATA     3.9091    @HCCINIT0_HeatAlgorithmRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00fbh     00fbh    0001h      DATA     2         @data_r31c (isr:ra~rh)
+     00h     00fch     00fch    0001h      DATA     2         @data_r41c (isr:ra~rh)
+     00h     00fdh     00fdh    0001h      DATA     2         @data_r51c (isr:ra~rh)
+     00h     00feh     00feh    0001h      DATA     2         @data_r61c (isr:ra~rh)
+     01h     0080h     009ah    001bh      DATA     5.9259    @HCCINIT0_CommData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     01h     009bh     00bah    0020h      DATA     2.5       @HCCINIT0_FuncData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     01h     00bbh     00e5h    002bh      DATA     0.9534    @HCCINIT0_MemData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00bbh     00bbh    0000h      LOCAL    0         @dummy (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     00bah     00bah    0001h      LOCAL    4         _main (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     009fh     009fh    0000h      LOCAL    0         _SystemInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _PltCaliCmp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009eh     009eh    0000h      LOCAL    0         _PltCaliOpa (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    1         _PltInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _PtmInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     00a4h     00a4h    0000h      LOCAL    0         _DataInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     009eh     00a3h    0006h      LOCAL    5.5       _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     009eh     009eh    0000h      LOCAL    0         _MemoryInit (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     00a3h     00a3h    0000h      LOCAL    0         _RefreshData (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     009eh     00a2h    0005h      LOCAL    7         _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0099h     0099h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     009fh     009fh    0001h      LOCAL    1         _ConfigType (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    2         _HeatDeviceTypeConfig (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00b9h     00b9h    0001h      LOCAL    3         _HeatDetector (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ)
+     00h     00b4h     00b8h    0005h      LOCAL    2.4       _HeatDetectFunction (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009eh     009eh    0001h      LOCAL    1         _AdcSample (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     009eh     00a1h    0004h      LOCAL    4         _AdvalFilter (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00aah     00b1h    0008h      LOCAL    4.5       _AdConvertTemp (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     00a3h    0006h      LOCAL    5.1667    _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009eh     00a9h    000ch      LOCAL    4.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a6h     00abh    0006h      LOCAL    6.3333    _TempRiseCurJudge (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     009fh    0002h      LOCAL    3         _ResetHeatPointRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     00a5h    0008h      LOCAL    4.25      _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009eh     00a1h    0004h      LOCAL    2         _ShiftHeatPointRegs (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     00a3h    0006h      LOCAL    3         _AlarmTmpThConfig (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     00ach     00b3h    0008h      LOCAL    3         _TempAlarmFunc (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\THERMALALGORITHM.OBJ)
+     00h     009eh     00abh    000eh      LOCAL    4.7143    _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009eh     009eh    0000h      LOCAL    0         _LedCtrl (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\FUNCTION.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    5         _MemoryWrite (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     009eh     009eh    0001h      LOCAL    5         _MemoryProcess (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         @dummy4 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _ISR_PLTCMP0 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         @dummy28 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     009ch     009dh    0002h      LOCAL    8         _ISR_PTM0CMP_PTM0CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         _PltOpaSwitchOff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\CONFIG.OBJ)
+     00h     009bh     009bh    0001h      LOCAL    18        _CommProtocol (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     0099h     0099h    0001h      LOCAL    0         _GetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     0099h     009ah    0002h      LOCAL    2.5       _PutDataToWriteEEBuff (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MEMORY.OBJ)
+     00h     0099h     009ah    0002h      LOCAL    1         _SetReg (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\COMM.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         @dummy36 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         _ISR_CTM0CMP_CTM0CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         @dummy40 (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         _ISR_CTM1CMP_CTM1CMA (c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\INTERRUPT_5541.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     07c1h              _AdConvertTemp
+     00aah              _AdConvertTemp_2
+     0721h              _AdcSample
+     0782h              _AdvalFilter
+     00a0h              _AdvalFilter_2
+     007ch              _AlarmThVal
+     0a73h              _AlarmTmpThConfig
+     00a2h              _AlarmTmpThConfig_2
+     0001h              _AvGroupConfig
+     0072h              _CLIPAddrDecode
+     0077h              _CLIPAddrEncode
+     00bbh              _CLIPDLIPFlag
+     00bfh              _CLIPWriteFlag
+     0180h              _CommData
+     02e0h              _CommProtocol
+     0133h              _ConfigType
+     0fe3h              _Crom2Prom
+     0fe2h              _Crom2PromNext
+     0148h              _DataInit
+     0090h              _FixedComptTempVal
+     019bh              _FuncData
+     029fh              _GetReg
+     00f0h              _HeatAlgorithmRegs
+     0bd9h              _HeatDetectFunction
+     00aah              _HeatDetector
+     0bcbh              _HeatDeviceTypeConfig
+     00d8h              _HeatPointRegs
+     0018h              _ISR_ADC_EEPROM
+     0ebbh              _ISR_CTM0CMP_CTM0CMA
+     0ee8h              _ISR_CTM1CMP_CTM1CMA
+     0008h              _ISR_INT0
+     000ch              _ISR_INT1
+     0014h              _ISR_LVD
+     0c49h              _ISR_PLTCMP0
+     0034h              _ISR_PLTCMP1
+     0c5dh              _ISR_PTM0CMP_PTM0CMA
+     0020h              _ISR_PTM1CMP_PTM1CMA
+     002ch              _ISR_TIMEBASE0
+     0030h              _ISR_TIMEBASE1
+     0010h              _ISR_UART
+     0003h              _LedCtrl
+     01bbh              _MemData
+     01b7h              _MemoryInit
+     022eh              _MemoryProcess
+     01d5h              _MemoryWrite
+     063ch              _PltCaliCmp
+     06b4h              _PltCaliOpa
+     0622h              _PltInit
+     071ch              _PltOpaSwitchOff
+     06a7h              _PtmInit
+     020ah              _PutDataToWriteEEBuff
+     009ah              _PutDataToWriteEEBuff_2
+     05a8h              _RefreshData
+     091dh              _ResetHeatPointRegs
+     008ah              _RorComptTempVal
+     02d2h              _SetReg
+     0941h              _ShiftHeatPointRegs
+     00ech              _SysData
+     06e9h              _SystemInit
+     0acdh              _TempAlarmFunc
+     00b2h              _TempAlarmFunc_2
+     098fh              _TempRiseCurJudge
+     00a6h              _TempRiseCurJudge_2
+     009dh              _TempSegRegs
+     0097h              _Th5CTimExpend
+     0f18h              __DELAYX0
+     0f17h              __DELAYX1
+     0f17h              __DELAYX2
+     0f16h              __DELAYX3
+     0f16h              __DELAYX4
+     0f15h              __DELAYX5
+     0f15h              __DELAYX6
+     0f21h              __DELAYY0_isr00
+     0f21h              __DELAYY1_isr00
+     0f20h              __DELAYY2_isr00
+     0f20h              __DELAYY3_isr00
+     0f1fh              __DELAYY4_isr00
+     0f1fh              __DELAYY5_isr00
+     0f2dh              _builtin_holtek_mulhi3_isr00
+     0f40h              _builtin_holtek_mulsi3_isr00
+     00a4h              _builtin_holtek_mulsi3_isr00_2
+     0f5fh              _builtin_holtek_udivmodhi4_isr00
+     0efch              _builtin_holtek_udivmodqi4_isr00
+     0f84h              _builtin_holtek_udivmodsi4_isr00
+     00bdh              _m_ptm0Pfunc
+     0188h              _main
+     0fc7h              _memset
+     00bch              _timeLoopCounter
+     00beh              _timeoutDurationFlag
+     008fh              r104
+     0091h              r11c
+     0094h              r124
+     0096h              r128
+     0090h              r204
+     0092h              r21c
+     0095h              r224
+     0097h              r228
+     00fbh              r31c
+     00fch              r41c
+     00fdh              r51c
+     00feh              r61c
+     0080h              ra
+     0088h              ra1c
+     0098h              ra28
+     0081h              rb
+     0089h              rb1c
+     0082h              rc
+     008ah              rc1c
+     0083h              rd
+     008bh              rd1c
+     0084h              re
+     008ch              re1c
+     0085h              rf
+     008dh              rf1c
+     0086h              rg
+     008eh              rg1c
+     0087h              rh
+     0093h              rh1c
+     0056h              startup_value_1
+
+     Address            Public by Value
+     0001h              _AvGroupConfig
+     0003h              _LedCtrl
+     0008h              _ISR_INT0
+     000ch              _ISR_INT1
+     0010h              _ISR_UART
+     0014h              _ISR_LVD
+     0018h              _ISR_ADC_EEPROM
+     0020h              _ISR_PTM1CMP_PTM1CMA
+     002ch              _ISR_TIMEBASE0
+     0030h              _ISR_TIMEBASE1
+     0034h              _ISR_PLTCMP1
+     0056h              startup_value_1
+     0072h              _CLIPAddrDecode
+     0077h              _CLIPAddrEncode
+     007ch              _AlarmThVal
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              ra1c
+     0089h              rb1c
+     008ah              _RorComptTempVal
+     008ah              rc1c
+     008bh              rd1c
+     008ch              re1c
+     008dh              rf1c
+     008eh              rg1c
+     008fh              r104
+     0090h              _FixedComptTempVal
+     0090h              r204
+     0091h              r11c
+     0092h              r21c
+     0093h              rh1c
+     0094h              r124
+     0095h              r224
+     0096h              r128
+     0097h              r228
+     0097h              _Th5CTimExpend
+     0098h              ra28
+     009ah              _PutDataToWriteEEBuff_2
+     009dh              _TempSegRegs
+     00a0h              _AdvalFilter_2
+     00a2h              _AlarmTmpThConfig_2
+     00a4h              _builtin_holtek_mulsi3_isr00_2
+     00a6h              _TempRiseCurJudge_2
+     00aah              _AdConvertTemp_2
+     00aah              _HeatDetector
+     00b2h              _TempAlarmFunc_2
+     00bbh              _CLIPDLIPFlag
+     00bch              _timeLoopCounter
+     00bdh              _m_ptm0Pfunc
+     00beh              _timeoutDurationFlag
+     00bfh              _CLIPWriteFlag
+     00d8h              _HeatPointRegs
+     00ech              _SysData
+     00f0h              _HeatAlgorithmRegs
+     00fbh              r31c
+     00fch              r41c
+     00fdh              r51c
+     00feh              r61c
+     0133h              _ConfigType
+     0148h              _DataInit
+     0180h              _CommData
+     0188h              _main
+     019bh              _FuncData
+     01b7h              _MemoryInit
+     01bbh              _MemData
+     01d5h              _MemoryWrite
+     020ah              _PutDataToWriteEEBuff
+     022eh              _MemoryProcess
+     029fh              _GetReg
+     02d2h              _SetReg
+     02e0h              _CommProtocol
+     05a8h              _RefreshData
+     0622h              _PltInit
+     063ch              _PltCaliCmp
+     06a7h              _PtmInit
+     06b4h              _PltCaliOpa
+     06e9h              _SystemInit
+     071ch              _PltOpaSwitchOff
+     0721h              _AdcSample
+     0782h              _AdvalFilter
+     07c1h              _AdConvertTemp
+     091dh              _ResetHeatPointRegs
+     0941h              _ShiftHeatPointRegs
+     098fh              _TempRiseCurJudge
+     0a73h              _AlarmTmpThConfig
+     0acdh              _TempAlarmFunc
+     0bcbh              _HeatDeviceTypeConfig
+     0bd9h              _HeatDetectFunction
+     0c49h              _ISR_PLTCMP0
+     0c5dh              _ISR_PTM0CMP_PTM0CMA
+     0ebbh              _ISR_CTM0CMP_CTM0CMA
+     0ee8h              _ISR_CTM1CMP_CTM1CMA
+     0efch              _builtin_holtek_udivmodqi4_isr00
+     0f15h              __DELAYX5
+     0f15h              __DELAYX6
+     0f16h              __DELAYX3
+     0f16h              __DELAYX4
+     0f17h              __DELAYX1
+     0f17h              __DELAYX2
+     0f18h              __DELAYX0
+     0f1fh              __DELAYY4_isr00
+     0f1fh              __DELAYY5_isr00
+     0f20h              __DELAYY2_isr00
+     0f20h              __DELAYY3_isr00
+     0f21h              __DELAYY0_isr00
+     0f21h              __DELAYY1_isr00
+     0f2dh              _builtin_holtek_mulhi3_isr00
+     0f40h              _builtin_holtek_mulsi3_isr00
+     0f5fh              _builtin_holtek_udivmodhi4_isr00
+     0f84h              _builtin_holtek_udivmodsi4_isr00
+     0fc7h              _memset
+     0fe2h              _Crom2PromNext
+     0fe3h              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     0fdah    99%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     007fh    99%
+     01h       0080h     0066h    79%
+     Total     0100h     00e5h    89%
+
+Use Stack Count
+_main: 5
+_ISR_PLTCMP0: 0
+_ISR_PTM0CMP_PTM0CMA: 2
+_ISR_CTM0CMP_CTM0CMA: 0
+_ISR_CTM1CMP_CTM1CMA: 0
+
+Call Tree
+    @dummy
+        _main (0)
+            _SystemInit (1)
+                _PltCaliCmp (2)
+                    __DELAYX (3)
+                _PltCaliOpa (2)
+                    __DELAYX (3)
+                _PltInit (2)
+                _PtmInit (2)
+            _DataInit (1)
+                _memset (2)
+                _MemoryInit (2)
+                _RefreshData (2)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Crom2Prom (3)
+                _ConfigType (2)
+                    _HeatDeviceTypeConfig (3)
+            _HeatDetector (1)
+                _HeatDetectFunction (2)
+                    __DELAYX (3)
+                    _builtin_holtek_delay_isr00 (3)
+                    _AdcSample (3)
+                        __DELAYX (4)
+                    _AdvalFilter (3)
+                    _AdConvertTemp (3)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _Crom2Prom (4)
+                    _TempRiseCurJudge (3)
+                        _ResetHeatPointRegs (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _ShiftHeatPointRegs (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                    _AlarmTmpThConfig (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _TempAlarmFunc (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_mulhi3_isr00 (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+            _LedCtrl (1)
+            _RefreshData (1)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _Crom2Prom (2)
+            _MemoryWrite (1)
+            _MemoryProcess (1)
+    @dummy4
+        _ISR_PLTCMP0 (0)
+    @dummy28
+        _ISR_PTM0CMP_PTM0CMA (0)
+            __DELAYX (1)
+            _PltOpaSwitchOff (1)
+            _CommProtocol (1)
+                _GetReg (2)
+                _Crom2Prom (2)
+                _PutDataToWriteEEBuff (2)
+                _SetReg (2)
+            _Crom2Prom (1)
+            _PutDataToWriteEEBuff (1)
+    @dummy36
+        _ISR_CTM0CMP_CTM0CMA (0)
+    @dummy40
+        _ISR_CTM1CMP_CTM1CMA (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'c:\users\h469388\desktop\todo\projects\1_ngb\1_firmware\ngb_low_power_consumption_v3\output_heat\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBorder": "#bf0060"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "THERMALALGORITHM.H": "cpp",
+        "FUNCTION.H": "cpp",
+        "ht45f5542.h": "c"
+    }
+}

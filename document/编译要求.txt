@@ -1,0 +1,31 @@
+Holtek系列单片机程序设计
+
+所有产品使用同一套源码文件，通过不同的宏定义，生成不同的版本程序
+工程文件区分Smoke和Module，区别是芯片型号不同，且与定义芯片型号不同
+在工程设置中，与定义的_HT45F5542_或者_HT45F5541_请勿删除，否则会影响Include.h中对芯片寄存器定义头文件引用错误。
+
+感烟产品
+使用芯片型号：HT45F5542
+软件工程名称：SmokeDevice
+EEPROM初始数据位于：项目文件\output_smoke\SmokeDevice.MEM
+工程编译前，请打开config.h文件，检查设定：
+硬件选择：使能HW_SEL_SMOKE
+芯片电压：使能HW_VOLT_5V
+          使能HW_CHIP_5542
+代码选择：使能CODE_SEL_SMOKE
+算法选择：使能ALGC_SEL_IR 单红外（算法二选一）
+          使能ALGC_SEL_RB 红蓝光（算法二选一）
+
+
+声光产品
+使用芯片型号：HT45F5541
+软件工程名称：ModuleDevice
+EEPROM初始数据位于：项目文件\output_module\ModuleDevice.MEM
+工程编译前，请打开config.h文件，检查设定：
+硬件选择：使能HW_SEL_AV
+芯片电压：使能HW_VOLT_5V
+          使能HW_CHIP_5541
+代码选择：使能CODE_SEL_AV
+算法选择：全部禁用
+
+后续产品开发，可依据应用配置，使用以上几种宏定义。

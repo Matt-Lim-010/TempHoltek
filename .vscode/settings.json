@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "FUNCTION.H": "cpp",
+        "THERMALALGORITHM.H": "cpp"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    }
+}
